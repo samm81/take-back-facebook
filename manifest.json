@@ -1,0 +1,15 @@
+{
+  "name": "Take Back Facebook",
+  "version": "1.0",
+  "description": "Reclaim Facebook as a tool - not an addiction",
+  "manifest_version": 2,
+	"permissions": [ "webRequest", "webRequestBlocking", "tabs", "*://*.facebook.com/*" ],
+	"content_scripts": [
+		{
+				"matches": [ "*://*.facebook.com/*" ],
+				"css": ["take-back-facebook.css"],
+				"js": ["take-back-facebook.js"]
+		}
+	]
+}
+

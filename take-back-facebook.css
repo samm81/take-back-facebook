@@ -1,0 +1,29 @@
+#pagelet_ego_pane, /* people you may know */
+#pagelet_instant_games_rhc, /* instant games in main area */
+#pagelet_trending_tags_and_topics, /* trending pane */
+#pagelet_canvas_nav_content, /* instant games in chat */
+#navItem_2392950137, /* watch button on left */
+#navItem_1606854132932955, /* marketplace button on left */
+#navItem_140332009231, /* games button on left */
+div._2xwp, /* bottom left notification popups */
+.uiLayer.uiContextualLayerPositioner._53ii, /* top right notification popups */
+div.UFIRow.UFILikeSentence._4204._4_dr, /* number of likes */
+._3399._1f6t._4_dr._20h5, /* number of likes */
+div.UFIRow.UFIShareRow, /* ??? */
+div._sa_._gsd._fgm._5vsi._192z > div > div > div > div > div._524d > div > span:nth-child(1), /* like button */
+div._sa_._gsd._fgm._5vsi._192z > div > div > div > div > div._524d > div > span:first-child:nth-last-child(2) ~ span /* comment button if it's the only button */
+{
+	display: none;
+}
+
+.jewelCount ._3z_5 { /* notification number bg color */
+	background-color: #BBB;
+}
+
+._2s1x ._2s1y { /* top bar background color */
+	background-color: #777 !important;
+}
+
+#left_nav_section_nodes .imgWrap {
+	filter: grayscale(100%);
+}
