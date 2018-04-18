@@ -1,0 +1,9 @@
+session_name: tbf
+start_directory: /home/maynard/workspace/take-back-facebook
+windows:
+- panes:
+  - shell_command: vim -S Session.vim
+- focus: 'true'
+  layout: main-vertical
+  panes:
+  - shell_command: git status
