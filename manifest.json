@@ -1,6 +1,6 @@
 {
   "name": "Take Back Facebook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reclaim Facebook as a tool - not an addiction",
   "manifest_version": 2,
 	"permissions": [ "*://*.facebook.com/*" ],
