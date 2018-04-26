@@ -1,9 +1,11 @@
 {
-  "name": "Take Back Facebook",
-  "version": "0.0.2",
-  "description": "Reclaim Facebook as a tool - not an addiction",
-  "manifest_version": 2,
-	"permissions": [ "*://*.facebook.com/*" ],
+	"name": "Take Back Facebook",
+	"version": "0.0.2",
+	"description": "Reclaim Facebook as a tool - not an addiction",
+	"permissions": [
+		"*://*.facebook.com/*",
+		"storage"
+	],
 	"content_scripts": [
 		{
 			"matches": [ "*://*.facebook.com/*" ],
@@ -11,6 +13,14 @@
 			"js": ["take-back-facebook.js"]
 		}
 	],
-	"web_accessible_resources": ["facebook_gray.ico"]
+	"web_accessible_resources": ["facebook_gray.ico"],
+	"icons": {
+		"16": "icon-16.png",
+		"32": "icon-32.png",
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+	"options_page": "options.html",
+	"manifest_version": 2
 }
 

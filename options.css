@@ -1,0 +1,36 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#options {
+	width: 600px;
+	font-size: 18px;
+	color: #333;
+}
+
+.option {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background: lightgray;
+	padding: 1em 1em 1em 1em;
+}
+
+.checkbox {
+	float: right;
+	transform: scale(2);
+}
+
+.checked {
+	background-color: lightblue;
+}
