@@ -1,0 +1,15 @@
+/***** grayscale ****/
+.jewelCount ._3z_5 { /* notification number bg color */
+	background-color: #BBB;
+}
+._2s1x ._2s1y { /* top bar background color */
+	background-color: #777 !important;
+	border-bottom-color: #DDD !important;
+}
+#left_nav_section_nodes .imgWrap {
+	filter: grayscale(100%);
+}
+
+div._585- { /* border around the search bar */
+	border: none;
+}

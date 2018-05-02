@@ -1,0 +1,13 @@
+/***** removal *****/
+#pagelet_ego_pane, /* people you may know */
+#pagelet_instant_games_rhc, /* instant games in main area */
+#stories_pagelet_rhc, /* stories */
+#pagelet_trending_tags_and_topics, /* trending pane */
+#pagelet_canvas_nav_content /* instant games in chat */
+/* #navItem_2392950137, /* watch button on left */
+/* #navItem_1606854132932955, /* marketplace button on left */
+/* #navItem_140332009231, /* games button on left */
+/* div.UFIRow.UFIShareRow /* ??? */
+{
+	display: none;
+}

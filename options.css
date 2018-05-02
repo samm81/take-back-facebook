@@ -14,7 +14,7 @@ body {
 }
 
 #options {
-	width: 600px;
+	width: 800px;
 	font-size: 18px;
 	color: #333;
 }
@@ -26,11 +26,60 @@ body {
 	padding: 1em 1em 1em 1em;
 }
 
+.explanation {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background: #eee;
+	padding: 1em 1em 1em 1em;
+}
+
 .checkbox {
-	float: right;
 	transform: scale(2);
 }
 
 .checked {
 	background-color: lightblue;
 }
+
+.right {
+	float: right;
+}
+
+.saved-text {
+	font-size: 10px;
+	color: green;
+	margin-right: 10px;
+	position: relative;
+	bottom: 3px;
+}
+
+.invisible {
+	display: none;
+}
+
+/* thank you Abhitalks */
+/* https://stackoverflow.com/questions/20996228/trying-to-create-a-consistent-mark-inside-circle-in-css */
+
+.why {
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	width: 18px;
+	height: 18px;
+	font-size: 14px;
+	line-height: 18px;
+	border-radius: 12px;
+	margin-left: 4px;
+	padding: 1px;
+	background: white;
+	cursor: default;
+}
+
+.why:hover {
+	color: white;
+	background: blue;
+	border-color: white;
+	text-decoration: none;
+}
+
+/* end stolen code */

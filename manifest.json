@@ -6,6 +6,10 @@
 		"*://*.facebook.com/*",
 		"storage"
 	],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
 	"content_scripts": [
 		{
 			"matches": [ "*://*.facebook.com/*" ],
@@ -13,7 +17,14 @@
 			"js": ["take-back-facebook.js"]
 		}
 	],
-	"web_accessible_resources": ["facebook_gray.ico"],
+	"web_accessible_resources": [
+		"facebook_gray.ico",
+		"gray.css",
+		"likebutton.css",
+		"likes.css",
+		"remove.css",
+		"removepopups.css"
+	],
 	"icons": {
 		"16": "icon-16.png",
 		"32": "icon-32.png",
