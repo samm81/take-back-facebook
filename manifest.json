@@ -1,6 +1,6 @@
 {
 	"name": "Take Back Facebook",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"description": "Reclaim Facebook as a tool - not an addiction",
 	"permissions": [
 		"*://*.facebook.com/*",
@@ -20,10 +20,11 @@
 	"web_accessible_resources": [
 		"facebook_gray.ico",
 		"gray.css",
+		"graybadges.css",
 		"likebutton.css",
 		"likes.css",
 		"remove.css",
-		"removepopups.css"
+		"popups.css"
 	],
 	"icons": {
 		"16": "icon-16.png",

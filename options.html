@@ -7,6 +7,24 @@
 	<div id="container">
 		<div id="options">
 
+			<div id="graybadges" class="option">
+				<label for="graybadges-checkbox">Turn red notification badges gray</label>
+				<span class="why">?</span>
+				<span class="right">
+					<span class="saved-text invisible">Saved! Please refresh Facebook to see your changes.</span>
+					<input type="checkbox" id="graybadges-checkbox" class="checkbox">
+				</span>
+			</div>
+
+			<div id="graybadges-explanation" class="explanation invisible">
+				<p>
+					"A friend at Facebook told Harris that designers initially decided the notification icon, which alerts people to new activity such as 'friend requests' or 'likes', should be blue. It fit Facebook's style and, the thinking went, would appear 'subtle and innocuous'. 'But no one used it,' Harris says. 'Then they switched it to red and of course everyone used it.'" - <a href="https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia">source</a>
+				</p>
+				<p>
+					"The color red can be linked to excitement as it is considered an arousing, exciting, and stimulating color" - <a href="https://doi.org/10.1007/s11747-010-0245-y">source</a>
+				</p>
+			</div>
+
 			<div id="gray" class="option">
 				<label for="gray-checkbox">Gray out "Facebook Blue"</label>
 				<span class="why">?</span>
@@ -17,7 +35,9 @@
 			</div>
 
 			<div id="gray-explanation" class="explanation invisible">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh purus, rutrum quis elit rutrum, vulputate porttitor massa. Nulla egestas rhoncus felis sagittis pharetra. Nunc ultrices massa enim, a mattis velit efficitur nec. Fusce cursus pharetra odio in interdum. Cras gravida nisl non imperdiet varius. Nullam vel felis ligula. Phasellus molestie fermentum lectus eget accumsan. Nullam in ex sed dolor scelerisque auctor vitae et ex. Nam molestie orci ex, consequat rutrum diam imperdiet eget.
+				<p>
+					Facebook's blue has been very carefully picked and lab tested. Blue as a color has associations of high quality and competence.
+				</p>
 			</div>
 
 			<div id="freeze" class="option">
@@ -30,11 +50,34 @@
 			</div>
 
 			<div id="freeze-explanation" class="explanation invisible">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh purus, rutrum quis elit rutrum, vulputate porttitor massa. Nulla egestas rhoncus felis sagittis pharetra. Nunc ultrices massa enim, a mattis velit efficitur nec. Fusce cursus pharetra odio in interdum. Cras gravida nisl non imperdiet varius. Nullam vel felis ligula. Phasellus molestie fermentum lectus eget accumsan. Nullam in ex sed dolor scelerisque auctor vitae et ex. Nam molestie orci ex, consequat rutrum diam imperdiet eget.
+				<p>
+					This prevents the title from showing your notification count, and informing you of a new message.
+				</p>
+				<p>
+					Notifications are a great example of a Skinner box, also known as a slot machine. Every notification can either be great (your crush Sally like your profile picture), devastating (your annoying Aunt Shelly commented on your vacation photos), or middle of the road (your friend Kyle liked your post). By broadcasting the number of unread notifications you have in the status bar, Facebook is inviting you back to play the slot machine. Skinner boxes and slot machines alike are well known to be highly addictive, and Facebook employs this psychology to keep you coming back. (<a href="https://www.theatlantic.com/technology/archive/2013/06/skinner-marketing-were-the-rats-and-facebook-likes-are-the-reward/276613/">source</a>)
+				</p>
+				<p>
+					When you receive a message Facebook swaps the title every few seconds. This is in order to continually draw your attention to the message. Motion is well known to draw a person's focus. By placing motion in the tab bar, Facebook is trying to draw you back into Facebook despite the fact that you had the best intentions to focus on another tab. (<a href="https://doi.org/10.3758/BF03193661">source</a>)
+				</p>
+			</div>
+
+			<div id="popups" class="option">
+				<label for="popups-checkbox">Remove notification popups</label>
+				<span class="why">?</span>
+				<span class="right">
+					<span class="saved-text invisible">Saved! Please refresh Facebook to see your changes.</span>
+					<input type="checkbox" id="popups-checkbox" class="checkbox">
+				</span>
+			</div>
+
+			<div id="popups-explanation" class="explanation invisible">
+				<p>
+				Motion draws attention, so a notification that pops into your field of view while using the site affords you little choice but to examine it. This subverts your ability to chose for yourself when you are going to interact with the site - instead of being able to deal with a notification at a later point in time, you are heavily encouraged to deal with it <b>now</b>. (<a href="https://doi.org/10.3758/BF03193661">source</a>)
+				</p>
 			</div>
 
 			<div id="likes" class="option">
-				<label for="likes-checkbox">Remove the like count from posts</label>
+				<label for="likes-checkbox">Remove the like count from posts/comments</label>
 				<span class="why">?</span>
 				<span class="right">
 					<span class="saved-text invisible">Saved! Please refresh Facebook to see your changes.</span>
@@ -43,11 +86,13 @@
 			</div>
 
 			<div id="likes-explanation" class="explanation invisible">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh purus, rutrum quis elit rutrum, vulputate porttitor massa. Nulla egestas rhoncus felis sagittis pharetra. Nunc ultrices massa enim, a mattis velit efficitur nec. Fusce cursus pharetra odio in interdum. Cras gravida nisl non imperdiet varius. Nullam vel felis ligula. Phasellus molestie fermentum lectus eget accumsan. Nullam in ex sed dolor scelerisque auctor vitae et ex. Nam molestie orci ex, consequat rutrum diam imperdiet eget.
+				<p>
+					Likes are fake bits of positivity that don't actually encourage any real interaction. Studies show the more you like things, the more likely you are to be unhappy.
+				</p>
 			</div>
 
 			<div id="likebutton" class="option">
-				<label for="likebutton-checkbox">Remove the ability to like posts</label>
+				<label for="likebutton-checkbox">Remove the ability to like posts/comments</label>
 				<span class="why">?</span>
 				<span class="right">
 					<span class="saved-text invisible">Saved! Please refresh Facebook to see your changes.</span>
@@ -56,7 +101,9 @@
 			</div>
 
 			<div id="likebutton-explanation" class="explanation invisible">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh purus, rutrum quis elit rutrum, vulputate porttitor massa. Nulla egestas rhoncus felis sagittis pharetra. Nunc ultrices massa enim, a mattis velit efficitur nec. Fusce cursus pharetra odio in interdum. Cras gravida nisl non imperdiet varius. Nullam vel felis ligula. Phasellus molestie fermentum lectus eget accumsan. Nullam in ex sed dolor scelerisque auctor vitae et ex. Nam molestie orci ex, consequat rutrum diam imperdiet eget.
+				<p>
+					Likes are fake bits of positivity that don't actually encourage any real interaction. Studies show the more you like things, the more likely you are to be unhappy.
+				</p>
 			</div>
 
 			<div id="remove" class="option">
@@ -69,20 +116,9 @@
 			</div>
 
 			<div id="remove-explanation" class="explanation invisible">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh purus, rutrum quis elit rutrum, vulputate porttitor massa. Nulla egestas rhoncus felis sagittis pharetra. Nunc ultrices massa enim, a mattis velit efficitur nec. Fusce cursus pharetra odio in interdum. Cras gravida nisl non imperdiet varius. Nullam vel felis ligula. Phasellus molestie fermentum lectus eget accumsan. Nullam in ex sed dolor scelerisque auctor vitae et ex. Nam molestie orci ex, consequat rutrum diam imperdiet eget.
-			</div>
-
-			<div id="removepopups" class="option">
-				<label for="removepopups-checkbox">Remove notification popups</label>
-				<span class="why">?</span>
-				<span class="right">
-					<span class="saved-text invisible">Saved! Please refresh Facebook to see your changes.</span>
-					<input type="checkbox" id="removepopups-checkbox" class="checkbox">
-				</span>
-			</div>
-
-			<div id="removepopups-explanation" class="explanation invisible">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh purus, rutrum quis elit rutrum, vulputate porttitor massa. Nulla egestas rhoncus felis sagittis pharetra. Nunc ultrices massa enim, a mattis velit efficitur nec. Fusce cursus pharetra odio in interdum. Cras gravida nisl non imperdiet varius. Nullam vel felis ligula. Phasellus molestie fermentum lectus eget accumsan. Nullam in ex sed dolor scelerisque auctor vitae et ex. Nam molestie orci ex, consequat rutrum diam imperdiet eget.
+				<p>
+					This removes sidebar items like instant games, trending news, and friend suggestions. These things are not useful to the primary purpose of Facebook: interacting with other people.
+				</p>
 			</div>
 
 		</div>

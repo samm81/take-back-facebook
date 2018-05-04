@@ -1,5 +1,6 @@
-div._sa_._gsd._fgm._5vsi._192z > div > div > div > div > div._524d > div > span:nth-child(1), /* like button */
-div._sa_._gsd._fgm._5vsi._192z > div > div > div > div > div._524d > div > span:first-child:nth-last-child(2) ~ span /* comment button if it's the only button */
+div._42nr._1mtp > span:nth-child(1), /* like button */
+div._42nr._1mtp > span:first-child:nth-last-child(2) ~ span, /* comment button if it's the only button */
+._6a._3-me, ._6a._3-me + span /* liking comments */
 {
 	display: none;
 }

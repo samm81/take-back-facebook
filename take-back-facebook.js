@@ -33,7 +33,7 @@
 	};
 
 	const loadstylesheets = function() {
-		const options = ['gray', 'likes', 'likebutton', 'remove', 'removepopups' ];
+		const options = ['gray', 'graybadges', 'likes', 'likebutton', 'remove', 'popups' ];
 		var insertStylesheet = function(option) {
 			const link = document.createElement('link');
 			link.href = chrome.runtime.getURL('' + option + '.css');
