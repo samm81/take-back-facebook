@@ -1,5 +1,5 @@
 session_name: tbf
-start_directory: /home/maynard/workspace/take-back-facebook
+start_directory: /home/maynard/workspace/tbf
 windows:
 - panes:
   - shell_command: vim -S Session.vim
