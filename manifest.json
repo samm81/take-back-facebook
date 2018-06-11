@@ -1,6 +1,6 @@
 {
-	"name": "Take Back Facebook",
-	"version": "0.1.1",
+	"name": "TBF",
+	"version": "0.1.2",
 	"description": "Reclaim Facebook as a tool - not an addiction",
 	"permissions": [
 		"*://*.facebook.com/*",
