@@ -1,6 +1,6 @@
 {
 	"name": "TBF",
-	"version": "0.1.3",
+	"version": "0.0.1",
 	"description": "Reclaim Facebook as a tool - not an addiction",
 	"permissions": [
 		"*://*.facebook.com/*",
