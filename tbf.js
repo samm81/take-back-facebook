@@ -15,7 +15,7 @@
 		var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
 		link.type = 'image/x-icon';
 		link.rel = 'shortcut icon';
-		link.href = chrome.runtime.getURL('facebook_gray.ico');
+		link.href = chrome.runtime.getURL('fb_gray.ico');
 		document.getElementsByTagName('head')[0].appendChild(link);
 	};
 
